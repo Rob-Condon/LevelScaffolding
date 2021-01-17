@@ -9,7 +9,7 @@
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
         <a href="#/">
-        <img  src="../assets/img/LS-Logo.png" alt="None" style="width: 40%; padding-right: 20px">
+        <img id="Icon"  src="../assets/img/LS-Logo.png" alt="None" style="">
         </a>
         <h3 ></h3>
       </div>
@@ -232,5 +232,13 @@ export default {
 <style scoped>
   .md-list-item a .md-ripple p {
     font-size: 14px;
+  }
+  #Icon {
+    width: 40%; padding-right: 20px
+  }
+  @media (max-width:700px){
+    #Icon {
+      width: 70%; padding-right: initial;
+    }
   }
 </style>
