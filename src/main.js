@@ -18,6 +18,10 @@ import router from "./router";
 
 import MaterialKit from "./plugins/material-kit";
 
+import { gsap } from 'gsap'
+import { CSSPlugin } from 'gsap/CSSPlugin'
+gsap.registerPlugin(CSSPlugin);
+
 Vue.config.productionTip = false;
 
 Vue.use(MaterialKit);
