@@ -29,25 +29,27 @@
           </div>
           <div class="features text-center">
             <div class="md-layout">
-              <div class="md-layout-item md-medium-size-33 md-small-size-100 feature" style="position: relative">
+              <div class="md-layout-item md-medium-size-100 md-small-size-100 feature" style="position: relative">
                 <div class="info">
-                  <div class="icon icon-info">
-                    <md-icon>place</md-icon>
+                  <div  class="icon icon-info">
+                    <md-icon style="font-size: 5.9rem;">place</md-icon>
                   </div>
-                  <h4 style="margin: initial;" class="info-title Ctitle">Address</h4>
-                  <p>
-                    ???
+                  <h4 style="margin: initial; font-size: 1.6rem" class="info-title Ctitle">Address</h4>
+                  <p style="font-size: 1rem">
+                    75 main south rd
                   </p>
                 </div>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100 feature" style="position: relative">
+              <div class="md-layout-item md-medium-size-100 md-small-size-100 feature" style="position: relative">
                 <div class="info">
                   <div class="icon icon-info">
                     <md-icon>phone</md-icon>
                   </div>
-                  <h4 style="margin: initial;" class="info-title Ctitle">Phone</h4>
-                  <p>
-                    Ph: 0800 538 358
+                  <h4 style="margin: initial; font-size: 1.6rem" class="info-title Ctitle">Phone</h4>
+                  <p style="font-size: 1rem">
+                    Main Business: 0800 538 358 <br>
+                    Neil: 027 233 7233 <br>
+                    Corey: 0210 245 2955
                   </p>
                 </div>
               </div>
@@ -57,8 +59,8 @@
                   <div class="icon icon-info">
                     <md-icon>email</md-icon>
                   </div>
-                  <h4 style="margin: initial;" class="info-title Ctitle">Email</h4>
-                  <p>
+                  <h4 style="margin: initial; font-size: 1.6rem"  class="info-title Ctitle">Email</h4>
+                  <p style="font-size: 1rem">
                    office@levelscaffolding.co.nz
                   </p>
 
@@ -309,6 +311,8 @@
 }
 .section {
   position: relative;
+  padding: 10px 0;
 }
+
 
 </style>

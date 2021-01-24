@@ -15,10 +15,12 @@
             </h4>
             <br />
             <md-button
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              herf="/"
+              onclick="window.open('tel:080053835')"
               class="md-info md-lg"
               target="_blank"
               id="PhoneBtn"
+              style="border-radius: 500px"
               ><md-icon>phone</md-icon> 0800 538 358</md-button
             >
           </div>
@@ -34,11 +36,10 @@
             >
               <h2  class="title text-center"><span style="font-weight: bold; color: #00b0ff;">Services</span> we provide</h2>
               <h5 class="description">
-                This is the paragraph where you can write more details about
-                your product. Keep you user engaged by providing meaningful
-                information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more.
+                We here at level scaffolding have the safest and most cost effective scaffolding solutions.
+                From Residential to Industrial, we have your back. Quickly adaptable to any changes on the site,
+                without the massive upsurge in pricing that other companies do.
+                Using tube and clip across the board, to make sure the scaffolding is as safe as can be and can adapt to a changing job.
               </h5>
             </div>
           </div>
@@ -51,7 +52,7 @@
                   </div>
                   <h4 class="info-title">Residential</h4>
                   <p>
-                    New builds, renovations and even for small touch ups. We provide cost effective and safe scaffolding fit for residential use.
+                    New builds, renovations and even for small touch ups. We provide cost effective and safe scaffolding fit for residential use. Using H-Frame scaffolding and nets to make sure its as safe as can be.
                   </p>
                 </div>
 
@@ -158,7 +159,7 @@
                 </div>
               </slide>
             </carousel>
-
+            <img src="../assets/img/Site-Safe-logo.png" alt="SiteSafe" id="SiteSafe">
           </div>
         </div>
       </div>
@@ -167,36 +168,81 @@
         <div id="Lscaff"></div>
         <div class="container" style="padding-bottom: 10vh">
           <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
+            <div class="md-layout-item md-size-80 md-xsmall-size-100 mx-auto">
+              <div class="section contactStrip" style="padding: initial">
+                  <div class="features text-center">
+                    <div class="md-layout">
+                      <div class="md-layout-item md-medium-size-100 md-small-size-100 feature" style="position: relative">
+                        <div class="info">
+                          <div  class="icon icon-info">
+                            <md-icon style="font-size: 5.9rem;">place</md-icon>
+                          </div>
+                          <h4 style="margin: initial; font-size: 1.6rem" class="info-title Ctitle">Address</h4>
+                          <p style="font-size: 1rem">
+                            75 main south rd
+                          </p>
+                        </div>
+                      </div>
+                      <div class="md-layout-item md-medium-size-100 md-small-size-100 feature" style="position: relative">
+                        <div class="info">
+                          <div class="icon icon-info">
+                            <md-icon>phone</md-icon>
+                          </div>
+                          <h4 style="margin: initial; font-size: 1.6rem" class="info-title Ctitle">Phone</h4>
+                          <p style="font-size: 1rem">
+                            Main Business: 0800 538 358 <br>
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="md-layout-item md-medium-size-33 md-small-size-100 feature" style="position: relative">
+                        <div class="info">
+                          <div class="icon icon-info">
+                            <md-icon>email</md-icon>
+                          </div>
+                          <h4 style="margin: initial; font-size: 1.6rem"  class="info-title Ctitle">Email</h4>
+                          <p style="font-size: 1rem">
+                            office@levelscaffolding.co.nz
+                          </p>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
               <h2 class="text-center title">Contact <span style="color: #00b8d4">Us</span></h2>
               <h4  class="text-center description">
                 From free quotes or just a question. Feel free to send us an email and we'll get back to you ASAP.
               </h4>
-              <form class="contact-form">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Name</label>
-                      <md-input v-model="name" type="text"></md-input>
-                    </md-field>
+
+                <form class="contact-form">
+                  <div class="md-layout">
+                    <div class="md-layout-item md-size-50">
+                      <md-field>
+                        <label>Your Name</label>
+                        <md-input v-model="name" type="text"></md-input>
+                      </md-field>
+                    </div>
+                    <div class="md-layout-item md-size-50">
+                      <md-field>
+                        <label>Your Email</label>
+                        <md-input v-model="email" type="email"></md-input>
+                      </md-field>
+                    </div>
                   </div>
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Email</label>
-                      <md-input v-model="email" type="email"></md-input>
-                    </md-field>
+                  <md-field maxlength="5">
+                    <label>Your Message</label>
+                    <md-textarea v-model="message"></md-textarea>
+                  </md-field>
+                  <div class="md-layout">
+                    <div class="md-layout-item md-size-33 mx-auto text-center">
+                      <md-button class="md-success">Send Message</md-button>
+                    </div>
                   </div>
-                </div>
-                <md-field maxlength="5">
-                  <label>Your Message</label>
-                  <md-textarea v-model="message"></md-textarea>
-                </md-field>
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
-                  </div>
-                </div>
-              </form>
+                </form>
+
             </div>
           </div>
         </div>
@@ -286,6 +332,15 @@
 </script>
 
 <style lang="scss" scoped>
+  @media (min-width: 1500px) {
+    .md-toolbar-row, .section .container, .footer .container {
+      max-width: 1440px;
+    }
+  }
+
+  .info {
+    padding: 10px 0 10px;
+  }
 .md-card-actions.text-center {
   display: flex;
   justify-content: center !important;
@@ -405,6 +460,10 @@
     font-size: 4rem;
   }
 @media (min-width:1000px){
+  #ContactSplit {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
   #Rscaff {
     position: absolute;
     height: 100%;
@@ -425,5 +484,10 @@
     background-size: 100% auto;
     background-repeat: repeat-y;
   }
+  #SiteSafe {
+    padding-top: 100px;
+    width: 30%;
+  }
 }
+
 </style>

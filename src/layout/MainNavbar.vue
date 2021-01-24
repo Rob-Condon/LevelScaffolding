@@ -29,7 +29,7 @@
             <mobile-menu nav-mobile-section-start="false">
               <!-- Here you can add your items from the section-start of your toolbar -->
             </mobile-menu>
-            <md-list>
+            <md-list style="position: relative">
               <li class="md-list-item" >
                 <a
                   href="javascript:void(0)"
@@ -41,6 +41,7 @@
                         class="md-button md-button-link md-white md-simple">
                         <a href="#/AboutUs">
                           <p>About Us</p>
+                          <div class="line"></div>
                         </a>
                       </md-button>
                   </div>
@@ -62,23 +63,28 @@
                         slot="title"
                         class="md-button md-button-link md-white md-simple dropdown-toggle"
                         data-toggle="dropdown"
+
                       >
                         <p>Services</p>
+                        <div class="line"></div>
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
                           <a href="#/landing">
                             <p>Industrial</p>
+
                           </a>
                         </li>
                         <li>
                           <a href="#/login">
                             <p>Residential</p>
+
                           </a>
                         </li>
                         <li>
                           <a href="#/profile">
                             <p>Small Commercial</p>
+
                           </a>
                         </li>
                       </ul>
@@ -98,11 +104,22 @@
                       class="md-button md-button-link md-white md-simple">
                       <a href="#/ContactUs">
                         <p>Contact Us</p>
+                        <div class="line"></div>
                       </a>
+
                     </md-button>
                   </div>
                 </a>
               </li>
+              <div style=" width: 1px; background-color: white; margin-left: 20px"></div>
+              <md-list-item
+                href="https://www.facebook.com/Level-Scaffolding-1293403510803482"
+                target="_blank"
+              >
+                <div style="transform: scale(1.2); padding-right: 20px; padding-left: 20px" onclick="window.open('tel:080053835')">
+                  <md-icon>phone</md-icon> 0800 538 358
+                </div>
+              </md-list-item>
 
               <md-list-item
                 href="https://www.facebook.com/Level-Scaffolding-1293403510803482"
@@ -116,6 +133,8 @@
               </md-list-item>
 
             </md-list>
+
+
           </div>
         </div>
       </div>
@@ -240,5 +259,20 @@ export default {
     #Icon {
       width: 70%; padding-right: initial;
     }
+  }
+  .line {
+    width: 0%;
+    height: 2px;
+    background-color: #00b0ff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+  }
+  a:hover .line, .dropdown-toggle:hover .line {
+    width: 70%;
+  }
+  a, .dropdown-toggle {
+    position: relative;
   }
 </style>
