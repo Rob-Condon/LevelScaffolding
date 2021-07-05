@@ -5,6 +5,9 @@ import ContactUs from "./views/ContactUs";
 import AboutUs from "./views/AboutUs";;
 import MainNavbar from "./layout/MainNavbar.vue";
 import MainFooter from "./layout/MainFooter.vue";
+import Service_Industrial from "./views/Service_Industrial";
+import Service_Residential from "./views/Service_Residential";
+import Service_SmallCommerical from "./views/Service_SmallCommerical";
 
 Vue.use(Router);
 
@@ -32,6 +35,33 @@ export default new Router({
       path: "/AboutUs",
       name: "AboutUs",
       components: { default: AboutUs, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/services/Industrial",
+      name: "Industrial",
+      components: { default: Service_Industrial, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/services/Residential",
+      name: "Residential",
+      components: { default: Service_Residential, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/services/SmallCommercial",
+      name: "SmallCommercial",
+      components: { default: Service_SmallCommerical, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }

@@ -70,19 +70,19 @@
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
-                          <a href="#/landing">
+                          <a href="#/services/Industrial">
                             <p>Industrial</p>
 
                           </a>
                         </li>
                         <li>
-                          <a href="#/login">
+                          <a href="#/services/Residential">
                             <p>Residential</p>
 
                           </a>
                         </li>
                         <li>
-                          <a href="#/profile">
+                          <a href="#/services/SmallCommercial">
                             <p>Small Commercial</p>
 
                           </a>

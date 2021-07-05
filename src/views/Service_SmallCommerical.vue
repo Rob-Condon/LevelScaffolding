@@ -1,16 +1,17 @@
 
 <template>
   <div class="wrapper" style="background-color: whitesmoke">
-    <parallax id="para" class="section page-header header-filter" :style="headerStyle" style="box-shadow: 0 80px 60px 0 black; max-height: 70vh;" >
+    <parallax class="section page-header header-filter" id="Para" :style="headerStyle" style="box-shadow: 0 80px 60px 0 black; max-height: 70vh; background-position: 0 0" >
       <div class="container">
         <div class="md-layout">
           <div
             class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100 "
+            id="TitlePop"
           >
-            <h1 id="title" class="title"><span style="color: #00b8d4; font-weight: bold"> Get</span> In Touch</h1>
+            <h1 id="title" class="title">Small <span style="color: #00b8d4; font-weight: bold">Commercial</span></h1>
             <div id="Line"></div>
             <h4 id="titleDesc">
-              Get in touch with the team at level scaffolding. Call, Email or even text we will get in touch ASAP. For a site visit or just a free quote,
+              We are a Christchurch based, locally owned and operated company. We cover  small commercial, industrial and residential. We take great pride in providing the best scaffolding service at a great price.
             </h4>
             <br />
           </div>
@@ -18,38 +19,49 @@
       </div>
     </parallax>
     <div class="main main-raised">
-      <div class="section contactStrip">
+      <div style="position: relative" class="section">
+        <div id="Rscaff"></div>
+        <div id="Lscaff"></div>
+        <div class="container" style="max-width: 1500px">
+          <div class="md-layout">
+            <div
+              class="md-layout-item md-size-90 md-xsmall-size-100 mx-auto text-left"
+            >
+              <h1  class="title text-left">Our <span style="font-weight: bold; color: #00b0ff;">Origins</span></h1>
+              <h3 style="color: black" class="description text-left">
+                <br>
+                We have over fifty years of experience in the scaffolding industry despite being a relatively small company. Our experience and dedication allows us to provide the highest level of service to you.
+                Health and safety is of paramount importance to us, just as it is to you. Our highly trained workforce is committed to working safely and to ensure safe working sites for others.
+                All level Scaffolding staff receive ongoing safety training.
+                <br><br>
+                We do everything from new/existing homes to rebuilds. We can provide diverse solutions any need. Making sure you and your employees are safe and have the easiest time working possible. Unlike those who
+                would have more generalized solutions. And with constant training and development we are always making sure to keep upto date with what is safest and what makes it easy for anyone to work on.
+                <br><br><br>
+              </h3>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section contactStrip" style="padding-top: initial">
         <div class="container" id="Service-Container">
           <div class="md-layout">
             <div
               class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
             >
-              <h2  class="title text-center">Quick <span style="font-weight: bold; color: #00b0ff;">Details</span></h2>
+              <h2  class="title text-center">Our <span style="font-weight: bold; color: #00b0ff;">Principles</span></h2>
             </div>
           </div>
           <div class="features text-center">
             <div class="md-layout">
-              <div class="md-layout-item md-medium-size-100 md-small-size-100 feature" style="position: relative">
-                <div class="info">
-                  <div  class="icon icon-info">
-                    <md-icon style="font-size: 5.9rem;">place</md-icon>
-                  </div>
-                  <h4 style="margin: initial; font-size: 1.6rem" class="info-title Ctitle">Address</h4>
-                  <p style="font-size: 1rem">
-                    75 main south rd
-                  </p>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-100 md-small-size-100 feature" style="position: relative">
+              <div class="md-layout-item md-medium-size-33 md-small-size-100 feature" style="position: relative">
                 <div class="info">
                   <div class="icon icon-info">
-                    <md-icon>phone</md-icon>
+                    <md-icon>schedule</md-icon>
                   </div>
-                  <h4 style="margin: initial; font-size: 1.6rem" class="info-title Ctitle">Phone</h4>
-                  <p style="font-size: 1rem">
-                    Main Business: 0800 538 358 <br>
-                    Neil: 027 233 7233 <br>
-                    Corey: 0210 245 2955
+                  <h4 style="margin: initial;" class="info-title Ctitle">Speed</h4>
+                  <p>
+                    Why your fast?
                   </p>
                 </div>
               </div>
@@ -57,56 +69,41 @@
               <div class="md-layout-item md-medium-size-33 md-small-size-100 feature" style="position: relative">
                 <div class="info">
                   <div class="icon icon-info">
-                    <md-icon>email</md-icon>
+                    <md-icon>support_agent</md-icon>
                   </div>
-                  <h4 style="margin: initial; font-size: 1.6rem"  class="info-title Ctitle">Email</h4>
-                  <p style="font-size: 1rem">
-                   office@levelscaffolding.co.nz
+                  <h4 style="margin: initial;" class="info-title Ctitle">Support</h4>
+                  <p>
+                    Open to changes on site? that kinda thing maybe?
                   </p>
 
                 </div>
               </div>
 
-            </div>
-          </div>
-        </div>
-      </div>
+              <div class="md-layout-item md-medium-size-33 md-small-size-100 feature" style="position: relative">
+                <div class="info">
+                  <div class="icon icon-info">
+                    <md-icon>place</md-icon>
+                  </div>
+                  <h4 style="margin: initial;" class="info-title Ctitle">Local</h4>
+                  <p>
+                    Keeping it local
+                  </p>
+                </div>
+              </div>
 
-      <div class="section section-contacts">
-        <div id="Rscaff"></div>
-        <div id="Lscaff"></div>
-        <div class="container" style="padding-bottom: 10vh">
-          <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h2 class="text-center title">Contact <span style="color: #00b8d4">Us</span></h2>
-              <h4  class="text-center description">
-                From free quotes or just a question. Feel free to send us an email and we'll get back to you ASAP.
-              </h4>
-              <form class="contact-form">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Name</label>
-                      <md-input v-model="name" type="text"></md-input>
-                    </md-field>
+              <div class="md-layout-item md-medium-size-33 md-small-size-100 feature" style="position: relative">
+                <div class="info">
+                  <div class="icon icon-info">
+                    <md-icon>health_and_safety</md-icon>
                   </div>
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Email</label>
-                      <md-input v-model="email" type="email"></md-input>
-                    </md-field>
-                  </div>
+                  <h4 style="margin: initial;" class="info-title Ctitle">Safety</h4>
+                  <p>
+                    we put safety first and foremost?
+                  </p>
+
                 </div>
-                <md-field maxlength="5">
-                  <label>Your Message</label>
-                  <md-textarea v-model="message"></md-textarea>
-                </md-field>
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
-                  </div>
-                </div>
-              </form>
+              </div>
+
             </div>
           </div>
         </div>
@@ -123,7 +120,7 @@
     props: {
       header: {
         type: String,
-        default: require("../assets/img/ContactUsBackground.png")
+        default: require("../assets/img/AboutUsBackground.png")
       },
     },
     data() {
@@ -132,6 +129,8 @@
         email: null,
         message: null,
         classicModal: false,
+        isVisible: false,
+        isVisible2: false,
         selectedDate: new Date("2018/03/26"),
         carousel1: require("@/assets/img/JobA.png"),
         carousel2: require("@/assets/img/JobB.png"),
@@ -171,6 +170,7 @@
 </script>
 
 <style lang="scss" scoped>
+
 .md-card-actions.text-center {
   display: flex;
   justify-content: center !important;
@@ -231,30 +231,6 @@
     }
 
   }
-@media (min-width:1000px){
-  #Rscaff {
-    position: absolute;
-    height: 100%;
-    width: 50px;
-    top: 0;
-    right: 0;
-    background-image: url("../assets/img/Scaffold.png");
-    background-size: 100% auto;
-    background-repeat: repeat-y;
-  }
-  #Lscaff {
-    position: absolute;
-    height: 100%;
-    width: 50px;
-    top: 0;
-    left: 0;
-    background-image: url("../assets/img/Scaffold.png");
-    background-size: 100% auto;
-    background-repeat: repeat-y;
-  }
-
-}
-
 .slide img {
   transition: 1s;
   max-height: 70vh;
@@ -309,10 +285,26 @@
   padding: initial;
   font-size: 4rem;
 }
-.section {
-  position: relative;
-  padding: 10px 0;
+@media (min-width:1000px){
+  #Rscaff {
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    top: 0;
+    right: 0;
+    background-image: url("../assets/img/Scaffold.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+  }
+  #Lscaff {
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    top: 0;
+    left: 0;
+    background-image: url("../assets/img/Scaffold.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+  }
 }
-
-
 </style>

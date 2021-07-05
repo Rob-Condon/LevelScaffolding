@@ -1,7 +1,7 @@
 
 <template>
   <div class="wrapper" style="background-color: whitesmoke">
-    <parallax class="section page-header header-filter" id="Para" :style="headerStyle" style="box-shadow: 0 80px 60px 0 black;" >
+    <parallax class="section page-header header-filter" id="Para" :style="headerStyle" style="box-shadow: 0 80px 60px 0 black; max-height: 70vh; background-position: 0 0" >
       <div class="container">
         <div class="md-layout">
           <div
@@ -11,7 +11,7 @@
             <h1 id="title" class="title"><span style="color: #00b8d4; font-weight: bold"> About</span> Us</h1>
             <div id="Line"></div>
             <h4 id="titleDesc">
-              Level scaffolding is a small company based in christchurch. Reliably doing jobs since ????, starting in residential builds then moving onto semi-commercial and industrial work to. We are fast growing because of our quality of work and the speed in which we get our jobs done.
+              We are a Christchurch based, locally owned and operated company. We cover  small commercial, industrial and residential. We take great pride in providing the best scaffolding service at a great price.
             </h4>
             <br />
           </div>
@@ -22,16 +22,22 @@
       <div style="position: relative" class="section">
         <div id="Rscaff"></div>
         <div id="Lscaff"></div>
-        <div class="container" >
+        <div class="container" style="max-width: 1500px">
           <div class="md-layout">
             <div
-              class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-left"
+              class="md-layout-item md-size-90 md-xsmall-size-100 mx-auto text-left"
             >
-              <h2  class="title text-left">Our <span style="font-weight: bold; color: #00b0ff;">Origins</span></h2>
-              <h5 class="description text-left">
-                When you started, what the company is about, why it's different to other scaffolding companies
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-              </h5>
+              <h1  class="title text-left">Our <span style="font-weight: bold; color: #00b0ff;">Origins</span></h1>
+              <h3 style="color: black" class="description text-left">
+                <br>
+                We have over fifty years of experience in the scaffolding industry despite being a relatively small company. Our experience and dedication allows us to provide the highest level of service to you.
+                Health and safety is of paramount importance to us, just as it is to you. Our highly trained workforce is committed to working safely and to ensure safe working sites for others.
+                All level Scaffolding staff receive ongoing safety training.
+                <br><br>
+                We do everything from new/existing homes to rebuilds. We can provide diverse solutions any need. Making sure you and your employees are safe and have the easiest time working possible. Unlike those who
+                would have more generalized solutions. And with constant training and development we are always making sure to keep upto date with what is safest and what makes it easy for anyone to work on.
+                <br><br><br>
+              </h3>
 
             </div>
           </div>
@@ -164,6 +170,7 @@
 </script>
 
 <style lang="scss" scoped>
+
 .md-card-actions.text-center {
   display: flex;
   justify-content: center !important;
