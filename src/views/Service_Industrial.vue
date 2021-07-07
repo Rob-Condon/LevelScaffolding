@@ -2,6 +2,7 @@
 <template>
   <div class="wrapper" style="background-color: whitesmoke">
     <parallax class="section page-header header-filter" id="Para" :style="headerStyle" style="box-shadow: 0 80px 60px 0 black; max-height: 70vh; background-position: 0 0" >
+    <div style="background-color: rgba(0,0,0,0.4); position: absolute; top: 0; width: 100%; height: 100%"></div>
       <div class="container">
         <div class="md-layout">
           <div
@@ -11,7 +12,7 @@
             <h1 id="title" class="title"><span style="color: #00b8d4; font-weight: bold"> Industrial </span></h1>
             <div id="Line"></div>
             <h4 id="titleDesc">
-              We are a Christchurch based, locally owned and operated company. We cover  small commercial, industrial and residential. We take great pride in providing the best scaffolding service at a great price.
+              We specialise in residential scaffolding that provides for safe, complaint, and convenient working at height. We understand specific access requirements for different trades and design scaffolding accordingly, using versatile Ringlock scaffolding system
             </h4>
             <br />
           </div>
@@ -30,9 +31,7 @@
               <h1  class="title text-left">Our <span style="font-weight: bold; color: #00b0ff;">Origins</span></h1>
               <h3 style="color: black" class="description text-left">
                 <br>
-                We have over fifty years of experience in the scaffolding industry despite being a relatively small company. Our experience and dedication allows us to provide the highest level of service to you.
-                Health and safety is of paramount importance to us, just as it is to you. Our highly trained workforce is committed to working safely and to ensure safe working sites for others.
-                All level Scaffolding staff receive ongoing safety training.
+                Our scaffolding work ranges from general maintenance, major shut downs and all out of hours call outs due to breakdowns and/or maintenance.
                 <br><br>
                 We do everything from new/existing homes to rebuilds. We can provide diverse solutions any need. Making sure you and your employees are safe and have the easiest time working possible. Unlike those who
                 would have more generalized solutions. And with constant training and development we are always making sure to keep upto date with what is safest and what makes it easy for anyone to work on.
@@ -120,7 +119,7 @@
     props: {
       header: {
         type: String,
-        default: require("../assets/img/AboutUsBackground.png")
+        default: require("../assets/img/JobB.jpg")
       },
     },
     data() {

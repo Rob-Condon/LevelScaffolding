@@ -120,7 +120,7 @@
     props: {
       header: {
         type: String,
-        default: require("../assets/img/AboutUsBackground.png")
+        default: require("../assets/img/Hotel-Scaffolding.png")
       },
     },
     data() {
